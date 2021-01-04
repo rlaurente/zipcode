@@ -52,7 +52,7 @@ exports.lookup = function(zipcode) {
 
 /**
  * listing by state
- * Returns data in {zip_code, city, state } format
+ * Returns data in [{zip_code, city, state }] format
  */
 exports.listByState = function(state){
   if(data_source.length === 0){
